@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,7 @@ namespace SemiApplication.Models
 
         public override string ToString()
         {
-            return $"{this.Name} {this.Surname} -- {this.Grade} | BirthDate: {string.Format("MM/dd/yyyy", this.BirthDay)}";
+            return $"{this.Name} {this.Surname} -- {this.Grade} | BirthDate: {$"{this.BirthDay.Month}/{this.BirthDay.Day}/{this.BirthDay.Year}"}";
         }
     }
 }

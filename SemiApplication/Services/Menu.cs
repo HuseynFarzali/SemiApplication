@@ -15,6 +15,7 @@ namespace SemiApplication.Services
 
             do
             {
+                Console.WriteLine();
                 Console.WriteLine("1. Show students");
                 Console.WriteLine("2. Add student");
                 Console.WriteLine("3. Update student");
@@ -71,6 +72,7 @@ namespace SemiApplication.Services
 
             do
             {
+                Console.WriteLine();
                 Console.WriteLine("1. Show teachers");
                 Console.WriteLine("2. Add teacher");
                 Console.WriteLine("3. Update teacher");

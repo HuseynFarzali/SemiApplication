@@ -17,7 +17,7 @@ namespace SemiApplication.Models
 
         public override string ToString()
         {
-            return $"{this.Name} {this.Surname} | BirthDate: {string.Format("MM/dd/yyyy", this.BirthDay)}";
+            return $"{this.Name} {this.Surname} | BirthDate: {$"{this.BirthDay.Month}/{this.BirthDay.Day}/{this.BirthDay.Year}"}";
         }
     }
 }

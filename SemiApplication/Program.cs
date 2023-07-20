@@ -13,6 +13,7 @@ namespace SemiApplication
 
             do
             {
+                Console.WriteLine();
                 Console.WriteLine("1. Student menu");
                 Console.WriteLine("2. Teacher menu");
                 Console.WriteLine("0. Exit");

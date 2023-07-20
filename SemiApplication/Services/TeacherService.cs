@@ -117,12 +117,12 @@ namespace SemiApplication.Services
                 bool success = teacherDatabase.Update(id, student);
                 if (success)
                 {
-                    Console.WriteLine("Teacher deleted from the database successfully.");
+                    Console.WriteLine("Teacher data updated successfully.");
                     return;
                 }
                 else
                 {
-                    Console.WriteLine("Removal of the Teacher by the given ID value failed. (Possibly there is no any matching Teacher by the given ID value).");
+                    Console.WriteLine("Update operation of the Teacher by the given ID value failed. (Possibly there is no any matching Teacher by the given ID value).");
                     return;
                 }
             }
